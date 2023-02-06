@@ -1,0 +1,587 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: flex-start;
+  background-color: red;
+  color: white;
+  /* font-family:'Poppins', sans-serif; */
+  width: 100%;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+.navbar h1 {
+  width: 30%;
+  font-size: 40px;
+  text-align: center;
+  /* font-weight: bold; */
+}
+
+.navItems {
+  width: 50%;
+  padding: 0px 10px;
+  /* font-family:'Poppins', sans-serif; */
+  /* flex-grow: 1; */
+}
+
+.navItems>ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.navItems>ul :hover {
+  color: black;
+  cursor: pointer;
+}
+
+.navItems>ul>li:nth-child(1) {
+  color: black;
+}
+
+.crosl {
+  width: 98.9vw;
+  overflow: hidden;
+}
+
+.crosl img {
+  width: 100%;
+}
+
+.hdg {
+  /* font-family: 'Poppins', sans-serif;   */
+  font-size: 57px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.txt {
+  position: absolute;
+  top: 65%;
+  left: 28%;
+  color: white;
+  transform: translate(-50%, -50%);
+  margin: 0px 4px 0px 320px;
+}
+
+.btn {
+  /* position: absolute; */
+  /* top: 75%; */
+  /* left: 45%; */
+  background-color: red;
+  color: white;
+  padding: 20px 60px;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 37px;
+}
+
+.btn:hover {
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: white;
+  color: red;
+}
+
+.each-slide {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.each-slide-effect>div,
+.each-slide>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.bbb {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.ccc {
+  width: 60%;
+  justify-content: center;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.each-slide-effect p {
+  width: 65%;
+}
+
+.abttxt {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+
+.abttxt h1 {
+  border-bottom: 1px solid red;
+}
+
+.para1 {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.para1 p {
+  width: 76%;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  padding-bottom: 40px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.Cont {
+  width: 80%;
+  display: flex;
+}
+
+.SubCon {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+
+.SubCon {
+  /* margin-top: 30px; */
+  width: 50%;
+}
+
+.imageCon {
+  width: 50%;
+}
+
+.imageCon img {
+  width: 100%;
+}
+
+.Abtbtn {
+  background-color: black;
+  color: white;
+  padding: 20px 60px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.abc {
+  display: flex;
+  justify-content: center;
+}
+
+.Abtbtn:hover {
+  border: 0px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.scr {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.scr h1 {
+  border-bottom: 1px solid red;
+  margin-bottom: 10px;
+}
+
+.para2 {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.shotimg {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  border: 2px solid red;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.serCon {
+  margin-top: 90px;
+  background-color: #ececec;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.serSubcon {
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serSubcon h1 {
+  color: red;
+  border-bottom: 1px solid red;
+  margin-bottom: 20px;
+}
+
+
+.ser2Subcon {
+  padding-top: 20px;
+  display: flex;
+  background-color: #ececec;
+  /* border: 2px solid red; */
+  width: 100%;
+  justify-content: center;
+}
+
+.ser2Subcon img {
+  border-radius: 42px;
+  padding: 20px;
+}
+
+.ser4 {
+  display: flex;
+  background-color: #ececec;
+  /* border: 2px solid red; */
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.ser4 img {
+  border-radius: 42px;
+  padding: 20px;
+}
+
+.item {
+  position: relative;
+}
+
+.item p {
+  position: absolute;
+  right: 160px;
+  top: 95px;
+  color: red;
+  padding: 8px 18px;
+}
+
+.item:hover p {
+  color: white;
+  background-color: rgb(242, 154, 154);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .abttxt h1 {
+    font-size: 16px !important;
+  }
+
+  .para1 {
+    padding: 0 20px;
+  }
+
+  .Cont {
+    flex-direction: column;
+  }
+
+  .info {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imageCon,
+  .SubCon {
+    width: 100%;
+  }
+
+  .SubCon p {
+    font-size: 12px;
+  }
+
+  .scr h1 {
+    font-size: 16px;
+  }
+
+  .para2 p {
+    width: 70%;
+    font-size: 12px;
+  }
+
+  .abc .Abtbtn {
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+
+  .serSubcon h1 {
+    font-size: 30px;
+  }
+
+  .serSubcon p {
+    width: 70%;
+    font-size: 15px;
+  }
+}
+
+.blogCont {
+  margin-top: 80px;
+  /* border: 2px solid red; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.blogsubCon {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+}
+
+.blogsubCon h1 {
+  border-bottom: 1px solid red;
+  margin-bottom: 20px;
+}
+
+.blogpicsubCon {
+  margin-top: 65px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.blogpicdatCon {
+  width: 35%;
+  padding: 0px 15px;
+}
+
+.blogpicdatCon img {
+  width: 100%;
+}
+
+.rev {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rev p {
+  color: red;
+}
+
+.blogpicdatCon p,
+h2 {
+  margin-top: 15px;
+}
+
+.main_contact {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(47, 46, 46);
+  /* border: 2px solid red; */
+}
+
+.sub_contact_con {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.sub_contact_con h1 {
+  border-bottom: 1px solid white;
+  margin-bottom: 25px;
+  color: white;
+  margin-top: 40px;
+}
+
+.form {
+  padding: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(47, 46, 46);
+  width: 100%;
+  padding-bottom: 75px;
+}
+
+.formdesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.formdesign h3 {
+  color: black;
+}
+
+.ab {
+  display: flex;
+  justify-content: center;
+}
+
+.Abttbtn {
+  background-color: black;
+  color: white;
+  padding: 15px 50px;
+  font-size: medium;
+  margin-bottom: 35px;
+}
+
+.Abttbtn:hover {
+  border: 0px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.formspace {
+  padding: 15px;
+}
+
+.Link_Con {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background-color: red;
+}
+
+.Link_subCon {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.Link_subCon h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  /* use for space between text that held in y-axis */
+  /* line-height: 35px; */
+}
+
+.con {
+  padding-top: 25px;
+  display: flex;
+  width: 100%;
+  background-color: red;
+  justify-content: center;
+}
+
+.con2 {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.con2 h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.con h3,
+.Link_Con h3 {
+  width: 170px;
+}
+
+.icon {
+  /* background-color: white; */
+  border: 1px solid white;
+  color: white;
+  padding: 7px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.abcd {
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: flex-end;
+  padding-right: 242px;
+  background-color: red;
+}
+
+.Abtttbtn {
+  background-color: black;
+  color: red;
+  padding: 10px 40px;
+  font-size: medium;
+  margin-bottom: 35px;
+}
+
+.Abtttbtn:hover {
+  border: 0px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.footer {
+  margin: 15px 15px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
